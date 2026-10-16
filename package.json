@@ -1,0 +1,23 @@
+{
+  "name": "nexusgear-ecommerce",
+  "version": "1.0.0",
+  "description": "Ultra-Modern Tech & Electronics Full-Stack E-Commerce Web Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "keywords": [
+    "ecommerce",
+    "electronics",
+    "tech-store",
+    "express",
+    "fullstack"
+  ],
+  "author": "NexusGear Team",
+  "license": "MIT"
+}

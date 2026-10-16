@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexusGear | Ultra-Modern Tech & Electronics Store</title>
+  <meta name="description" content="Shop next-generation audiophile headphones, titanium smartwatches, mechanical keyboards, and spatial computing gear at NexusGear. Fast worldwide shipping.">
+  <meta name="theme-color" content="#090d16">
+
+  <!-- Google Fonts: Space Grotesk & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar" id="announcementBar">
+    <div class="announcement-content">
+      <span class="badge-pill">LIMITED EVENT</span>
+      <p>⚡ <strong>CYBER FLASH SALE:</strong> Use promo code <span class="promo-highlight" id="copyPromoCode" title="Click to copy">TECH20</span> for 20% off all flagship gear • Free 2-Day Air Shipping over $99</p>
+    </div>
+    <button class="close-announcement" id="closeAnnouncement" aria-label="Dismiss banner">&times;</button>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="site-header" id="siteHeader">
+    <div class="nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo" id="brandLogo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <span class="logo-text">NEXUS<span class="gradient-accent">GEAR</span></span>
+      </a>
+
+      <!-- Quick Nav Links -->
+      <nav class="nav-links" id="mainNav">
+        <a href="#catalogSection" class="nav-link active">Catalog</a>
+        <a href="#featuredHero" class="nav-link">Flagship Aura</a>
+        <a href="#perksSection" class="nav-link">Why Nexus</a>
+        <a href="#customerReviewsSection" class="nav-link">Reviews</a>
+      </nav>
+
+      <!-- Search & Cart Actions -->
+      <div class="nav-actions">
+        <!-- Live Instant Search Bar -->
+        <div class="nav-search-wrap">
+          <span class="search-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </span>
+          <input type="text" id="searchInput" class="search-input" placeholder="Search headphones, titanium watch, 4K OLED..." autocomplete="off">
+          <button id="clearSearchBtn" class="clear-search-btn" aria-label="Clear search" style="display: none;">&times;</button>
+        </div>
+
+        <!-- Wishlist Button -->
+        <button class="nav-icon-btn" id="wishlistToggleBtn" title="Saved Wishlist" aria-label="View wishlist">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+          <span class="badge-counter" id="wishlistCountBadge">0</span>
+        </button>
+
+        <!-- Cart Drawer Toggle Button -->
+        <button class="cart-trigger-btn" id="cartToggleBtn" aria-label="Open Shopping Cart">
+          <div class="cart-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+            <span class="badge-counter animated-pop" id="cartCountBadge">0</span>
+          </div>
+          <span class="cart-total-preview" id="cartTotalPreview">$0.00</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="featuredHero">
+    <div class="hero-background-glow"></div>
+    <div class="hero-container">
+      
+      <div class="hero-text-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span>Next-Generation Spatial Hardware • 2026 Release</span>
+        </div>
+        <h1 class="hero-title">
+          Engineered for the <br><span class="gradient-text">Edge of Tomorrow</span>
+        </h1>
+        <p class="hero-description">
+          Immerse in studio-grade acoustic depth, military-grade titanium wearables, and tactile mechanical hardware built for performance purists.
+        </p>
+        
+        <div class="hero-cta-group">
+          <a href="#catalogSection" class="btn btn-primary" id="heroShopNowBtn">
+            <span>Explore Flagship Gear</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <button class="btn btn-glass" id="heroQuickBuyBtn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <span>View Featured Aura Pro</span>
+          </button>
+        </div>
+
+        <!-- Telemetry Stats Strip -->
+        <div class="hero-stats-strip">
+          <div class="stat-item">
+            <span class="stat-number">45h</span>
+            <span class="stat-label">Beryllium Battery</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">0.1ms</span>
+            <span class="stat-label">Ultra Latency</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">Grade 5</span>
+            <span class="stat-label">Titanium Alloy</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">2-Year</span>
+            <span class="stat-label">Zero-Hassle Care</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Showcase -->
+      <div class="hero-visual-card">
+        <div class="showcase-glow-ring"></div>
+        <div class="showcase-inner">
+          <div class="showcase-badge-top">
+            <span class="badge-featured">FLAGSHIP PRO</span>
+            <span class="stock-live-indicator"><span class="live-dot"></span> In Stock (14 Units)</span>
+          </div>
+          <div class="showcase-image-wrap">
+            <img src="/images/nexus_headphones.jpg" alt="Nexus Aura Pro Wireless Headphones with illuminated cyan halo ring" class="showcase-img" id="heroProductImg">
+          </div>
+          <div class="showcase-details">
+            <div class="showcase-header">
+              <h3 class="showcase-title">Nexus Aura Pro ANC</h3>
+              <div class="showcase-price-block">
+                <span class="showcase-current-price">$299.99</span>
+                <span class="showcase-old-price">$379.99</span>
+              </div>
+            </div>
+            <p class="showcase-tagline">45mm Beryllium drivers with spatial head tracking & cyan acoustic aura.</p>
+            <div class="showcase-actions">
+              <button class="btn btn-primary btn-block" id="heroAddToCartBtn" data-product-id="nx-01">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+                <span>Add Aura Pro to Cart</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Main Catalog Section -->
+  <main class="catalog-section" id="catalogSection">
+    <div class="catalog-container">
+      
+      <!-- Section Header -->
+      <div class="section-title-wrap">
+        <div>
+          <span class="section-subtitle">HARDWARE INVENTORY</span>
+          <h2 class="section-heading">Explore Nexus Tech Catalog</h2>
+        </div>
+        <div class="catalog-meta-info" id="catalogMetaInfo">
+          Showing <span class="highlight-count" id="activeProductCount">10</span> flagship devices
+        </div>
+      </div>
+
+      <!-- Categories Filter Pills Bar -->
+      <div class="categories-bar-wrapper">
+        <div class="categories-bar" id="categoryPills">
+          <button class="category-pill active" data-category="all">
+            <span class="pill-icon">⚡</span>
+            <span>All Gear</span>
+            <span class="pill-count" id="count-all">10</span>
+          </button>
+          <button class="category-pill" data-category="audio">
+            <span class="pill-icon">🎧</span>
+            <span>Audio & Sound</span>
+            <span class="pill-count" id="count-audio">3</span>
+          </button>
+          <button class="category-pill" data-category="wearables">
+            <span class="pill-icon">⌚</span>
+            <span>Wearables</span>
+            <span class="pill-count" id="count-wearables">1</span>
+          </button>
+          <button class="category-pill" data-category="computing">
+            <span class="pill-icon">⌨️</span>
+            <span>Computing</span>
+            <span class="pill-count" id="count-computing">3</span>
+          </button>
+          <button class="category-pill" data-category="gaming">
+            <span class="pill-icon">🎮</span>
+            <span>Gaming & VR</span>
+            <span class="pill-count" id="count-gaming">2</span>
+          </button>
+          <button class="category-pill" data-category="smart-home">
+            <span class="pill-icon">🚁</span>
+            <span>Drones & Smart Tech</span>
+            <span class="pill-count" id="count-smart-home">1</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Controls Toolbar (Filters, Price Slider, Sorting, View Toggle) -->
+      <div class="catalog-controls-bar">
+        
+        <!-- Left Filter Group: Price Slider & Rating Filter -->
+        <div class="controls-left">
+          
+          <!-- Price Slider Filter -->
+          <div class="control-box price-filter-box">
+            <label for="priceRangeSlider" class="control-label">
+              <span>Max Price:</span>
+              <strong id="priceDisplay">$900</strong>
+            </label>
+            <input type="range" id="priceRangeSlider" min="50" max="900" step="25" value="900" class="slider-input">
+          </div>
+
+          <!-- Rating Filter -->
+          <div class="control-box rating-filter-box">
+            <label class="control-label">Min Rating:</label>
+            <div class="rating-pills" id="ratingPills">
+              <button class="rating-pill active" data-min-rating="0">Any</button>
+              <button class="rating-pill" data-min-rating="4.7">4.7+ ★</button>
+              <button class="rating-pill" data-min-rating="4.8">4.8+ ★</button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Controls: Sort & Reset -->
+        <div class="controls-right">
+          
+          <div class="control-box sort-box">
+            <label for="sortSelect" class="control-label">Sort By:</label>
+            <div class="select-wrapper">
+              <select id="sortSelect" class="sort-select">
+                <option value="featured">Featured & Recommended</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="rating-desc">Highest Customer Rating</option>
+                <option value="discount-desc">Biggest Discount</option>
+                <option value="name-asc">Alphabetical (A - Z)</option>
+              </select>
+            </div>
+          </div>
+
+          <button id="resetFiltersBtn" class="btn btn-outline btn-sm" title="Clear all search & filter parameters">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+              <path d="M3 3v5h5"></path>
+            </svg>
+            <span>Reset</span>
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- Active Filters Tag Strip -->
+      <div class="active-filter-tags" id="activeFilterTags" style="display: none;"></div>
+
+      <!-- Product Cards Grid -->
+      <div class="product-grid" id="productGrid">
+        <!-- Dynamically rendered via JS -->
+        <div class="loading-state">
+          <div class="spinner"></div>
+          <p>Loading ultra-modern hardware catalog...</p>
+        </div>
+      </div>
+
+      <!-- Empty State -->
+      <div class="empty-results-state" id="emptyResultsState" style="display: none;">
+        <div class="empty-icon">🔍</div>
+        <h3>No hardware found matching your criteria</h3>
+        <p>Try adjusting your search query, increasing the price range, or clearing category filters.</p>
+        <button class="btn btn-primary" id="emptyResetBtn">Reset All Filters</button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Why NexusGear / Perks Section -->
+  <section class="perks-section" id="perksSection">
+    <div class="perks-container">
+      <div class="section-title-wrap text-center">
+        <span class="section-subtitle">THE NEXUS DIFFERENCE</span>
+        <h2 class="section-heading">Built to Outperform. Backed for Life.</h2>
+      </div>
+
+      <div class="perks-grid">
+        <div class="perk-card">
+          <div class="perk-icon-wrap cyan">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h4>2-Year Extended Care</h4>
+          <p>Every device includes comprehensive international hardware warranty with zero-cost express replacement.</p>
+        </div>
+
+        <div class="perk-card">
+          <div class="perk-icon-wrap violet">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="1" y="3" width="15" height="13"></rect>
+              <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+              <circle cx="5.5" cy="18.5" r="2.5"></circle>
+              <circle cx="18.5" cy="18.5" r="2.5"></circle>
+            </svg>
+          </div>
+          <h4>Free Express Global Air</h4>
+          <p>Orders over $99 ship via priority air transit in custom shock-resistant carbon foam packaging.</p>
+        </div>
+
+        <div class="perk-card">
+          <div class="perk-icon-wrap emerald">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+              <line x1="12" y1="22.08" x2="12" y2="12"></line>
+            </svg>
+          </div>
+          <h4>30-Day Pure Immersion Trial</h4>
+          <p>Test your gear in your own studio. If the acoustic or mechanical response doesn't blow you away, return it free.</p>
+        </div>
+
+        <div class="perk-card">
+          <div class="perk-icon-wrap amber">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <h4>Audiophile Calibration</h4>
+          <p>Custom parametric EQ curves and precision pre-lubed mechanical switch configurations available for each model.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews Showcase Section -->
+  <section class="reviews-section" id="customerReviewsSection">
+    <div class="reviews-container">
+      <div class="section-title-wrap">
+        <div>
+          <span class="section-subtitle">COMMUNITY VERIFIED</span>
+          <h2 class="section-heading">What Pioneers Are Saying</h2>
+        </div>
+        <div class="rating-badge-aggregate">
+          <span class="aggregate-stars">★★★★★</span>
+          <span class="aggregate-score">4.9 / 5.0</span>
+          <span class="aggregate-note">Based on 600+ verified customer reviews</span>
+        </div>
+      </div>
+
+      <div class="reviews-grid" id="featuredReviewsGrid">
+        <!-- Rendered dynamically from API -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo-text">NEXUS<span class="gradient-accent">GEAR</span></div>
+          <p class="footer-desc">Architecting next-generation audio, wearables, and spatial interfaces for creators and engineers.</p>
+          <div class="footer-socials">
+            <span class="social-tag">Discord Community</span>
+            <span class="social-tag">GitHub Hardware</span>
+            <span class="social-tag">X / Twitter</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Product Lines</h5>
+          <ul>
+            <li><a href="#catalogSection">Spatial ANC Audio</a></li>
+            <li><a href="#catalogSection">Titanium Wearables</a></li>
+            <li><a href="#catalogSection">Precision Keyboards</a></li>
+            <li><a href="#catalogSection">4K Micro-OLED VR</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Support & Docs</h5>
+          <ul>
+            <li><a href="#">Firmware Updates</a></li>
+            <li><a href="#">Warranty Registry</a></li>
+            <li><a href="#">Order Tracking</a></li>
+            <li><a href="#">Return Protocol</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Newsletter Perks</h5>
+          <p class="newsletter-info">Receive experimental firmware builds and 20% discount drops.</p>
+          <form class="newsletter-form" id="newsletterForm" onsubmit="event.preventDefault(); window.NexusApp?.showToast('Subscribed! Welcome to Nexus Insider drop list.', 'success');">
+            <input type="email" placeholder="engineer@domain.com" required class="newsletter-input">
+            <button type="submit" class="btn btn-primary btn-sm">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 NexusGear Technologies Inc. All rights reserved. Simulated E-Commerce Environment.</p>
+        <div class="footer-legal">
+          <span>Privacy Architecture</span>
+          <span>Terms of Delivery</span>
+          <span>Security Protocol</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= MODALS & DRAWERS ================= -->
+
+  <!-- 1. Slide-Over Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-title-wrap">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <path d="M16 10a4 4 0 0 1-8 0"></path>
+        </svg>
+        <h3>Your Hardware Bag</h3>
+        <span class="cart-items-count-pill" id="cartItemCountHeader">0 items</span>
+      </div>
+      <button class="close-drawer-btn" id="closeCartBtn" aria-label="Close cart">&times;</button>
+    </div>
+
+    <!-- Free Shipping Progress Bar -->
+    <div class="shipping-progress-card">
+      <div class="shipping-progress-text" id="shippingProgressText">
+        Add <strong>$99.00</strong> more for Free Worldwide Air Shipping
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="shippingProgressBar" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <!-- Cart Items Container -->
+    <div class="cart-items-list" id="cartItemsList">
+      <!-- Populated via JS -->
+    </div>
+
+    <!-- Empty Cart Template -->
+    <div class="empty-cart-view" id="emptyCartView" style="display: none;">
+      <div class="empty-cart-icon">🛒</div>
+      <h4>Your hardware bag is empty</h4>
+      <p>Explore our flagship audiophile headphones, titanium watches, and computing gear.</p>
+      <button class="btn btn-primary" id="cartStartShoppingBtn">Discover Gear</button>
+    </div>
+
+    <!-- Cart Footer & Checkout Controls -->
+    <div class="cart-footer" id="cartFooter">
+      
+      <!-- Promo Code Box -->
+      <div class="promo-code-box">
+        <div class="promo-input-group">
+          <input type="text" id="couponInput" class="promo-input" placeholder="Promo code (e.g. TECH20)" uppercase>
+          <button class="btn btn-glass btn-sm" id="applyCouponBtn">Apply</button>
+        </div>
+        <div class="promo-feedback" id="promoFeedback"></div>
+      </div>
+
+      <!-- Cost Breakdown -->
+      <div class="cart-summary-table">
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span id="cartSubtotalVal">$0.00</span>
+        </div>
+        <div class="summary-row discount-row" id="cartDiscountRow" style="display: none;">
+          <span id="discountLabel">Promo Discount (20%)</span>
+          <span id="cartDiscountVal">-$0.00</span>
+        </div>
+        <div class="summary-row">
+          <span>Estimated Air Shipping</span>
+          <span id="cartShippingVal">Free</span>
+        </div>
+        <div class="summary-row">
+          <span>Estimated Tax (8.25%)</span>
+          <span id="cartTaxVal">$0.00</span>
+        </div>
+        <div class="summary-divider"></div>
+        <div class="summary-row total-row">
+          <span>Total</span>
+          <span class="total-amount" id="cartGrandTotalVal">$0.00</span>
+        </div>
+      </div>
+
+      <button class="btn btn-primary btn-block btn-lg checkout-btn" id="proceedCheckoutBtn">
+        <span>Proceed to Secure Checkout</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </button>
+
+      <div class="cart-security-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+        </svg>
+        <span>End-to-End Encrypted 256-Bit Simulation</span>
+      </div>
+
+    </div>
+  </aside>
+
+  <!-- 2. Product Quick-View Modal -->
+  <dialog class="custom-modal quickview-modal" id="quickViewModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="closeQuickViewBtn" aria-label="Close modal">&times;</button>
+      
+      <div class="quickview-grid">
+        
+        <!-- Media Gallery Column -->
+        <div class="qv-media-col">
+          <div class="qv-main-image-wrap">
+            <img id="qvMainImg" src="" alt="Product View" class="qv-main-img">
+            <div class="qv-badge" id="qvBadge">Top Rated</div>
+          </div>
+          <div class="qv-thumbnails" id="qvThumbnails">
+            <!-- Thumbnails injected via JS -->
+          </div>
+        </div>
+
+        <!-- Product Information Column -->
+        <div class="qv-info-col">
+          <div class="qv-category-badge" id="qvCategory">Audio</div>
+          <h2 class="qv-title" id="qvTitle">Nexus Aura Pro</h2>
+          <p class="qv-tagline" id="qvTagline">Spatial ANC with Beryllium Drivers</p>
+
+          <div class="qv-rating-strip">
+            <div class="star-rating" id="qvStars">★★★★★</div>
+            <span class="rating-num" id="qvRatingVal">4.9</span>
+            <span class="reviews-count" id="qvReviewCount">(184 reviews)</span>
+            <span class="stock-status-pill in-stock" id="qvStockPill">In Stock (14 left)</span>
+          </div>
+
+          <div class="qv-price-block">
+            <span class="qv-current-price" id="qvCurrentPrice">$299.99</span>
+            <span class="qv-old-price" id="qvOldPrice">$379.99</span>
+            <span class="qv-discount-pill" id="qvDiscountPill">SAVE 21%</span>
+          </div>
+
+          <p class="qv-description" id="qvDescription">Product description...</p>
+
+          <!-- Color / Variant Picker -->
+          <div class="qv-variants-wrap" id="qvVariantsSection">
+            <label class="variant-label">Select Color / Finish: <strong id="qvSelectedVariantName">Stealth Obsidian</strong></label>
+            <div class="variant-options" id="qvVariantOptions">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+
+          <!-- Feature Bullets -->
+          <div class="qv-features-wrap">
+            <h5 class="qv-subhead">Key Architectural Highlights</h5>
+            <ul class="qv-features-list" id="qvFeaturesList">
+              <!-- Bullets -->
+            </ul>
+          </div>
+
+          <!-- Specifications Toggle -->
+          <details class="qv-specs-accordion" id="qvSpecsAccordion">
+            <summary class="qv-specs-summary">
+              <span>View Technical Specifications</span>
+              <span class="accordion-arrow">▼</span>
+            </summary>
+            <div class="specs-table" id="qvSpecsTable">
+              <!-- Key/Value Pairs -->
+            </div>
+          </details>
+
+          <!-- Add to Cart Controls -->
+          <div class="qv-actions-row">
+            <div class="quantity-stepper">
+              <button class="step-btn" id="qvQtyMinusBtn" aria-label="Decrease quantity">-</button>
+              <input type="number" id="qvQtyInput" value="1" min="1" max="99" class="qty-field" readonly>
+              <button class="step-btn" id="qvQtyPlusBtn" aria-label="Increase quantity">+</button>
+            </div>
+            <button class="btn btn-primary flex-grow" id="qvAddToCartBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              <span>Add to Bag</span>
+            </button>
+          </div>
+
+          <!-- Reviews Section within Modal -->
+          <div class="qv-reviews-section">
+            <div class="qv-reviews-header">
+              <h4>Verified Pioneer Reviews</h4>
+              <button class="btn btn-outline btn-xs" id="qvWriteReviewBtn">+ Write Review</button>
+            </div>
+
+            <!-- New Review Form (Hidden by default) -->
+            <form class="write-review-card" id="qvReviewForm" style="display: none;">
+              <h5>Share Your Field Experience</h5>
+              <div class="form-row">
+                <input type="text" id="reviewAuthorInput" class="form-input" placeholder="Your Name or Call-sign" required>
+                <select id="reviewRatingSelect" class="form-input" required>
+                  <option value="5">★★★★★ 5 Stars (Extraordinary)</option>
+                  <option value="4">★★★★☆ 4 Stars (Excellent)</option>
+                  <option value="3">★★★☆☆ 3 Stars (Average)</option>
+                  <option value="2">★★☆☆☆ 2 Stars (Needs Polish)</option>
+                  <option value="1">★☆☆☆☆ 1 Star (Disappointed)</option>
+                </select>
+              </div>
+              <input type="text" id="reviewTitleInput" class="form-input" placeholder="Review Title (e.g. Flawless spatial sound)" required>
+              <textarea id="reviewCommentInput" class="form-textarea" placeholder="Detail your experience with acoustic drivers, build quality, ergonomics, or latency..." rows="3" required></textarea>
+              <div class="form-actions-inline">
+                <button type="submit" class="btn btn-primary btn-sm">Submit Review</button>
+                <button type="button" class="btn btn-glass btn-sm" id="cancelReviewBtn">Cancel</button>
+              </div>
+            </form>
+
+            <div class="qv-reviews-list" id="qvReviewsList">
+              <!-- Populated via JS -->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </dialog>
+
+  <!-- 3. Multi-Step Checkout Modal -->
+  <dialog class="custom-modal checkout-modal" id="checkoutModal">
+    <div class="modal-card checkout-card">
+      <button class="modal-close-btn" id="closeCheckoutBtn" aria-label="Close checkout">&times;</button>
+
+      <!-- Multi-step Wizard Navigation -->
+      <div class="checkout-stepper">
+        <div class="step-indicator active" id="stepIndicator1">
+          <span class="step-num">1</span>
+          <span class="step-text">Shipping Address</span>
+        </div>
+        <div class="step-divider" id="stepDivider1"></div>
+        <div class="step-indicator" id="stepIndicator2">
+          <span class="step-num">2</span>
+          <span class="step-text">Dispatch Method</span>
+        </div>
+        <div class="step-divider" id="stepDivider2"></div>
+        <div class="step-indicator" id="stepIndicator3">
+          <span class="step-num">3</span>
+          <span class="step-text">Payment Gateway</span>
+        </div>
+        <div class="step-divider" id="stepDivider3"></div>
+        <div class="step-indicator" id="stepIndicator4">
+          <span class="step-num">4</span>
+          <span class="step-text">Order Confirmation</span>
+        </div>
+      </div>
+
+      <div class="checkout-body">
+        
+        <!-- STEP 1: Shipping Information -->
+        <div class="checkout-step-pane" id="checkoutStep1">
+          <h3>Contact & Shipping Destination</h3>
+          <p class="step-sub">Provide delivery details for priority global air courier.</p>
+
+          <form id="shippingAddressForm" class="checkout-form">
+            <div class="form-grid">
+              <div class="form-group full-width">
+                <label for="shipName">Full Name</label>
+                <input type="text" id="shipName" class="form-input" placeholder="Alexander Drake" required value="Alexander Drake">
+              </div>
+
+              <div class="form-group half-width">
+                <label for="shipEmail">Email for Order Telemetry</label>
+                <input type="email" id="shipEmail" class="form-input" placeholder="alex@nexusgear.io" required value="alex@nexusgear.io">
+              </div>
+
+              <div class="form-group half-width">
+                <label for="shipPhone">Phone Number</label>
+                <input type="tel" id="shipPhone" class="form-input" placeholder="+1 (555) 019-2834" required value="+1 (555) 019-2834">
+              </div>
+
+              <div class="form-group full-width">
+                <label for="shipAddress">Street Address</label>
+                <input type="text" id="shipAddress" class="form-input" placeholder="742 Evergreen Terrace, Suite 400" required value="742 Evergreen Terrace, Suite 400">
+              </div>
+
+              <div class="form-group third-width">
+                <label for="shipCity">City</label>
+                <input type="text" id="shipCity" class="form-input" placeholder="San Francisco" required value="San Francisco">
+              </div>
+
+              <div class="form-group third-width">
+                <label for="shipState">State / Region</label>
+                <input type="text" id="shipState" class="form-input" placeholder="CA" required value="CA">
+              </div>
+
+              <div class="form-group third-width">
+                <label for="shipZip">ZIP / Postal Code</label>
+                <input type="text" id="shipZip" class="form-input" placeholder="94107" required value="94107">
+              </div>
+            </div>
+
+            <div class="checkout-actions">
+              <button type="button" class="btn btn-glass" id="backToCartFromCheckout">Return to Cart</button>
+              <button type="submit" class="btn btn-primary" id="toStep2Btn">
+                <span>Continue to Shipping Method</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- STEP 2: Shipping Method -->
+        <div class="checkout-step-pane" id="checkoutStep2" style="display: none;">
+          <h3>Select Courier Speed</h3>
+          <p class="step-sub">All packages packed in temperature-sealed electrostatic carbon cases.</p>
+
+          <div class="shipping-options-grid">
+            
+            <label class="shipping-option-card selected" id="optStandard">
+              <input type="radio" name="shippingSpeed" value="standard" checked>
+              <div class="opt-body">
+                <div class="opt-header">
+                  <span class="opt-title">Standard Ground Air</span>
+                  <span class="opt-price" id="standardCostLabel">FREE</span>
+                </div>
+                <p class="opt-desc">3 – 5 Business Days with live tracking portal</p>
+              </div>
+            </label>
+
+            <label class="shipping-option-card" id="optExpress">
+              <input type="radio" name="shippingSpeed" value="express">
+              <div class="opt-body">
+                <div class="opt-header">
+                  <span class="opt-title">Express Priority Jet</span>
+                  <span class="opt-price">$14.99</span>
+                </div>
+                <p class="opt-desc">1 – 2 Business Days direct flight dispatch</p>
+              </div>
+            </label>
+
+            <label class="shipping-option-card" id="optOvernight">
+              <input type="radio" name="shippingSpeed" value="overnight">
+              <div class="opt-body">
+                <div class="opt-header">
+                  <span class="opt-title">Quantum Overnight</span>
+                  <span class="opt-price">$29.99</span>
+                </div>
+                <p class="opt-desc">Guaranteed next morning delivery before 10:30 AM</p>
+              </div>
+            </label>
+
+          </div>
+
+          <div class="checkout-actions">
+            <button type="button" class="btn btn-glass" id="backToStep1Btn">Back to Address</button>
+            <button type="button" class="btn btn-primary" id="toStep3Btn">
+              <span>Continue to Payment</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 3: Payment Gateway Simulation -->
+        <div class="checkout-step-pane" id="checkoutStep3" style="display: none;">
+          <div class="payment-header-row">
+            <div>
+              <h3>Secure Payment Simulation</h3>
+              <p class="step-sub">Encrypted sandbox transaction for test order fulfillment.</p>
+            </div>
+            <span class="sandbox-badge">MOCK GATEWAY • NO REAL CHARGES</span>
+          </div>
+
+          <div class="payment-layout">
+            
+            <!-- Virtual Card Graphic -->
+            <div class="virtual-card-preview" id="virtualCard">
+              <div class="card-chip"></div>
+              <div class="card-number-display" id="cardDisplayNum">•••• •••• •••• 4242</div>
+              <div class="card-meta">
+                <div>
+                  <span class="card-meta-label">CARDHOLDER</span>
+                  <div class="card-meta-val" id="cardDisplayName">ALEXANDER DRAKE</div>
+                </div>
+                <div>
+                  <span class="card-meta-label">EXPIRES</span>
+                  <div class="card-meta-val" id="cardDisplayExp">12/28</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card Input Form -->
+            <form id="paymentForm" class="payment-form">
+              <div class="form-group full-width">
+                <label for="cardNumInput">Card Number</label>
+                <input type="text" id="cardNumInput" class="form-input" placeholder="4242 4242 4242 4242" maxlength="19" value="4242 4242 4242 4242" required>
+              </div>
+
+              <div class="form-group full-width">
+                <label for="cardHolderInput">Name on Card</label>
+                <input type="text" id="cardHolderInput" class="form-input" placeholder="Alexander Drake" value="Alexander Drake" required>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group half-width">
+                  <label for="cardExpiryInput">Expiry (MM/YY)</label>
+                  <input type="text" id="cardExpiryInput" class="form-input" placeholder="12/28" maxlength="5" value="12/28" required>
+                </div>
+                <div class="form-group half-width">
+                  <label for="cardCvcInput">CVC / CVV</label>
+                  <input type="password" id="cardCvcInput" class="form-input" placeholder="982" maxlength="4" value="982" required>
+                </div>
+              </div>
+
+              <!-- Quick Demo Fill -->
+              <div class="demo-card-hint">
+                <span>💡 Auto-filled with test credentials for instantaneous validation</span>
+              </div>
+
+              <!-- Checkout Summary Line -->
+              <div class="checkout-final-total-row">
+                <span>Total Due Now:</span>
+                <strong class="highlight-total" id="checkoutFinalTotal">$0.00</strong>
+              </div>
+
+              <div class="checkout-actions">
+                <button type="button" class="btn btn-glass" id="backToStep2Btn">Back to Shipping</button>
+                <button type="submit" class="btn btn-primary btn-lg" id="submitOrderBtn">
+                  <span>Authorize & Complete Order</span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+        <!-- STEP 4: Order Confirmation Receipt -->
+        <div class="checkout-step-pane confirmation-pane" id="checkoutStep4" style="display: none;">
+          <div class="success-animation-wrap">
+            <div class="checkmark-circle">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <h2>Order Authorized & Confirmed!</h2>
+            <p class="order-id-subtitle">Order Confirmation ID: <strong id="receiptOrderId">#NX-892410</strong></p>
+          </div>
+
+          <!-- Live Delivery Tracker -->
+          <div class="delivery-tracker-card">
+            <div class="tracker-steps">
+              <div class="tracker-step done">
+                <div class="t-dot"></div>
+                <span>Order Placed</span>
+              </div>
+              <div class="tracker-line done"></div>
+              <div class="tracker-step current">
+                <div class="t-dot pulse"></div>
+                <span>Electrostatic Packaging</span>
+              </div>
+              <div class="tracker-line"></div>
+              <div class="tracker-step">
+                <div class="t-dot"></div>
+                <span>Air Dispatch</span>
+              </div>
+              <div class="tracker-line"></div>
+              <div class="tracker-step">
+                <div class="t-dot"></div>
+                <span>Delivered</span>
+              </div>
+            </div>
+            <div class="tracker-eta">
+              <span>Estimated Delivery:</span>
+              <strong id="receiptDeliveryDate">October 19, 2026</strong>
+            </div>
+          </div>
+
+          <!-- Itemized Receipt Box -->
+          <div class="receipt-box" id="receiptBox">
+            <!-- Dynamically populated -->
+          </div>
+
+          <div class="receipt-actions">
+            <button class="btn btn-glass" onclick="window.print()">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                <rect x="6" y="14" width="12" height="8"></rect>
+              </svg>
+              <span>Print Order Receipt</span>
+            </button>
+            <button class="btn btn-primary" id="continueShoppingBtn">
+              <span>Continue Shopping</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </dialog>
+
+  <!-- 4. Wishlist Drawer / Modal -->
+  <dialog class="custom-modal wishlist-modal" id="wishlistModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="closeWishlistBtn" aria-label="Close wishlist">&times;</button>
+      <div class="modal-header">
+        <h3>Saved Wishlist Gear</h3>
+        <p>Products you have bookmarked for your next hardware setup upgrade.</p>
+      </div>
+      <div class="wishlist-items-grid" id="wishlistItemsGrid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Toast Notifications Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Main JavaScript App -->
+  <script src="js/app.js"></script>
+</body>
+</html>

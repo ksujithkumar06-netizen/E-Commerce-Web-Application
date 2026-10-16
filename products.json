@@ -1,0 +1,393 @@
+[
+  {
+    "id": "nx-01",
+    "name": "Nexus Aura Pro ANC Headphones",
+    "tagline": "Spatial Audio with Adaptive Noise Cancellation & Cyan Halo",
+    "category": "audio",
+    "price": 299.99,
+    "originalPrice": 379.99,
+    "discountPercent": 21,
+    "rating": 4.9,
+    "reviewCount": 184,
+    "stock": 14,
+    "isFeatured": true,
+    "isTrending": true,
+    "badge": "Best Seller",
+    "image": "/images/nexus_headphones.jpg",
+    "gallery": [
+      "/images/nexus_headphones.jpg",
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Engineered for pure audiophile precision, the Nexus Aura Pro features 45mm custom beryllium drivers, active hybrid noise cancellation with real-time room calibration, and spatial head-tracking. Its ultra-soft memory-foam ear cushions wrapped in breathable micro-leather ensure all-day comfort.",
+    "features": [
+      "Hybrid Active Noise Cancellation with Transparency Mode",
+      "45mm Custom Beryllium Acoustic Drivers",
+      "Spatial Audio with Dynamic Head Tracking",
+      "Up to 45 Hours of Continuous Playback on Single Charge",
+      "Dual Low-Latency Bluetooth 5.4 + USB-C Lossless Audio"
+    ],
+    "specs": {
+      "Battery Life": "45 Hours (ANC Off) / 38 Hours (ANC On)",
+      "Charging": "Fast Charge: 15 min gives 6 hours",
+      "Weight": "260 grams",
+      "Connectivity": "Bluetooth 5.4, 3.5mm AUX, USB-C Audio",
+      "Frequency Response": "10 Hz – 42,000 Hz",
+      "Warranty": "2-Year International Warranty"
+    },
+    "variants": [
+      { "id": "v1", "name": "Stealth Obsidian", "colorCode": "#171717", "priceDelta": 0 },
+      { "id": "v2", "name": "Cyber Titanium", "colorCode": "#94a3b8", "priceDelta": 20 },
+      { "id": "v3", "name": "Deep Midnight Blue", "colorCode": "#1e3a8a", "priceDelta": 0 }
+    ]
+  },
+  {
+    "id": "nx-02",
+    "name": "Apex Chrono Ultra Smartwatch",
+    "tagline": "Aerospace Grade Titanium with Sapphire AMOLED & ECG Biosensors",
+    "category": "wearables",
+    "price": 349.99,
+    "originalPrice": 429.99,
+    "discountPercent": 18,
+    "rating": 4.8,
+    "reviewCount": 128,
+    "stock": 8,
+    "isFeatured": true,
+    "isTrending": true,
+    "badge": "Top Rated",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Constructed from solid Grade 5 Titanium and shielded by scratch-proof sapphire crystal glass, the Apex Chrono Ultra delivers cutting-edge cardiovascular analytics, dual-frequency GPS, and 100-meter water resistance for extreme endurance athletes and tech enthusiasts.",
+    "features": [
+      "1.43-inch Always-On Sapphire AMOLED (1,000 Nits)",
+      "Continuous Optical Heart Rate, SpO2, and ECG Sensors",
+      "Dual-Frequency Multi-GNSS Real-Time Precision GPS",
+      "10-Day Battery Life on Standard Mode",
+      "10 ATM Water Resistance (Dive Rated to 100m)"
+    ],
+    "specs": {
+      "Display": "1.43\" AMOLED 466x466 (Sapphire Glass)",
+      "Battery": "Up to 10 Days (Typical) / 40h GPS Active",
+      "Casing": "Grade 5 Titanium with DLC Coating",
+      "Sensors": "ECG, Optical HR, SpO2, Barometer, Gyroscope",
+      "Compatibility": "iOS 15+ / Android 9.0+",
+      "Warranty": "2-Year Manufacturer Warranty"
+    },
+    "variants": [
+      { "id": "v1", "name": "Raw Titanium", "colorCode": "#cbd5e1", "priceDelta": 0 },
+      { "id": "v2", "name": "Midnight Carbon DLC", "colorCode": "#0f172a", "priceDelta": 30 }
+    ]
+  },
+  {
+    "id": "nx-03",
+    "name": "Lumina 75 Pro Mechanical Keyboard",
+    "tagline": "Gasket-Mounted Polycarbonate with Hot-Swap Pre-Lubed Switches",
+    "category": "computing",
+    "price": 189.99,
+    "originalPrice": 229.99,
+    "discountPercent": 17,
+    "rating": 4.9,
+    "reviewCount": 94,
+    "stock": 18,
+    "isFeatured": true,
+    "isTrending": false,
+    "badge": "Pro Choice",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Experience acoustic perfection and satisfying tactile feedback. The Lumina 75 Pro incorporates a multi-layer poron gasket mounting structure, custom pre-lubed mechanical linear switches, double-shot PBT keycaps, and a programmable CNC rotary volume knob.",
+    "features": [
+      "75% Compact Layout with CNC Aluminum Rotary Encoder",
+      "Poron Gasket Mount + Acoustic IXPE Switch Pad",
+      "Hot-Swappable 5-Pin PCB with Per-Key South-Facing RGB",
+      "Triple Mode Connectivity (2.4GHz Wireless, Bluetooth 5.2, USB-C)",
+      "4000mAh Battery with 200+ Hours Wireless Operation"
+    ],
+    "specs": {
+      "Layout": "75% ANSI (82 Keys + Rotary Knob)",
+      "Switches": "Nexus Linear Crystal Switches (Factory Lubed)",
+      "Keycaps": "Cherry Profile Double-Shot PBT",
+      "Weight": "1,150 grams",
+      "Battery": "4000mAh Rechargeable Li-Ion",
+      "Warranty": "1-Year Full Coverage"
+    },
+    "variants": [
+      { "id": "v1", "name": "Frosted Smoke Black", "colorCode": "#262626", "priceDelta": 0 },
+      { "id": "v2", "name": "Glacier White", "colorCode": "#f8fafc", "priceDelta": 0 },
+      { "id": "v3", "name": "Cyber Neon Edition", "colorCode": "#06b6d4", "priceDelta": 15 }
+    ]
+  },
+  {
+    "id": "nx-04",
+    "name": "Quantum Horizon VR Spatial Headset",
+    "tagline": "Dual 4K Micro-OLED with 120Hz Pancake Optics & 6-DoF Tracking",
+    "category": "gaming",
+    "price": 799.99,
+    "originalPrice": 899.99,
+    "discountPercent": 11,
+    "rating": 4.7,
+    "reviewCount": 73,
+    "stock": 5,
+    "isFeatured": true,
+    "isTrending": true,
+    "badge": "Flagship",
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Step beyond reality with the Quantum Horizon. Featuring twin ultra-dense Micro-OLED displays offering 3840x2160 per eye, precision optical passthrough, and zero-latency inside-out spatial tracking. At just 280g, it offers unparalleled immersion and comfort.",
+    "features": [
+      "Twin 4K Micro-OLED Panels (3840 x 2160 pixels per eye)",
+      "Ultra-Sharp Edge-to-Edge Folded Pancake Lenses (115° FOV)",
+      "High-Resolution Color Spatial Passthrough with Depth LiDAR",
+      "Sub-Millimeter 6-DoF Inside-Out Optical Tracking",
+      "Featherlight 280g Chassis with Dynamic Counter-Balance"
+    ],
+    "specs": {
+      "Resolution": "3840 x 2160 per eye (4K RGB Stripe)",
+      "Refresh Rate": "90Hz / 120Hz Native",
+      "Optics": "Proprietary 4-Element Pancake Lens",
+      "Tracking": "4 Wide-Angle SLAM Cameras + LiDAR sensor",
+      "Weight": "285 grams",
+      "Warranty": "2-Year Extended Protection"
+    },
+    "variants": [
+      { "id": "v1", "name": "Cosmic Carbon (256GB)", "colorCode": "#1e293b", "priceDelta": 0 },
+      { "id": "v2", "name": "Cosmic Carbon (512GB)", "colorCode": "#0f172a", "priceDelta": 100 }
+    ]
+  },
+  {
+    "id": "nx-05",
+    "name": "Velocity Arc Ultralight Gaming Mouse",
+    "tagline": "52-Gram Magnesium Skeleton with 26K DPI & 4000Hz Polling",
+    "category": "gaming",
+    "price": 119.99,
+    "originalPrice": 149.99,
+    "discountPercent": 20,
+    "rating": 4.8,
+    "reviewCount": 112,
+    "stock": 22,
+    "isFeatured": false,
+    "isTrending": true,
+    "badge": "Sale",
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Crafted from a die-cast magnesium alloy exoskeleton, the Velocity Arc achieves an astonishing weight of just 52 grams without compromising structural rigidity. Driven by the flawless PAW3395 optical sensor and 4000Hz hyper-polling wireless dongle.",
+    "features": [
+      "Magnesium Alloy Exoskeleton weighing only 52 grams",
+      "PixArt PAW3395 Optical Sensor with 26,000 True DPI",
+      "Zero-Debounce Optical Microswitches (100M Clicks)",
+      "Hyper-Polling 4000Hz Wireless Receiver Included",
+      "Pure Virgin PTFE Glides with Rounded Chamfered Edges"
+    ],
+    "specs": {
+      "Sensor": "PixArt PAW3395 (26,000 DPI, 650 IPS, 50G)",
+      "Polling Rate": "1000Hz / 2000Hz / 4000Hz",
+      "Battery Life": "Up to 80 Hours on 1000Hz Mode",
+      "Weight": "52 grams ± 1g",
+      "Warranty": "2-Year Replacement Guarantee"
+    },
+    "variants": [
+      { "id": "v1", "name": "Anodized Black", "colorCode": "#18181b", "priceDelta": 0 },
+      { "id": "v2", "name": "Cyber Cyan", "colorCode": "#06b6d4", "priceDelta": 10 }
+    ]
+  },
+  {
+    "id": "nx-06",
+    "name": "NovaSound Atmos Spatial Soundbar",
+    "tagline": "Dolby Atmos 5.1.2 Cinematic Audio with Wireless Subwoofer",
+    "category": "audio",
+    "price": 449.99,
+    "originalPrice": 529.99,
+    "discountPercent": 15,
+    "rating": 4.7,
+    "reviewCount": 61,
+    "stock": 11,
+    "isFeatured": false,
+    "isTrending": false,
+    "badge": "Cinema Grade",
+    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Transform your living space into a true cinematic dome. Nine precision drivers with dual up-firing elevation speakers bounce three-dimensional sound off your ceiling for jaw-dropping spatial immersion. Includes an 8-inch wireless down-firing subwoofer.",
+    "features": [
+      "Full Dolby Atmos and DTS:X Hardware Decoding",
+      "9 High-Performance Acoustic Drivers with Up-Firing Channels",
+      "High-Output 8-inch Wireless Subwoofer with 35Hz Sub-Bass",
+      "HDMI eARC with 4K Dolby Vision Pass-Through",
+      "AirPlay 2, Chromecast, and Spotify Connect Built-In"
+    ],
+    "specs": {
+      "Total Power": "380W Peak (220W RMS)",
+      "Channels": "5.1.2 Spatial Configuration",
+      "Inputs": "HDMI eARC, Optical, AUX 3.5mm, Bluetooth 5.3",
+      "Dimensions": "Soundbar: 98 x 6.5 x 10 cm / Sub: 25 x 35 x 30 cm",
+      "Warranty": "2-Year Warranty"
+    },
+    "variants": [
+      { "id": "v1", "name": "Matte Charcoal", "colorCode": "#1c1917", "priceDelta": 0 },
+      { "id": "v2", "name": "Architectural Silver", "colorCode": "#9ca3af", "priceDelta": 20 }
+    ]
+  },
+  {
+    "id": "nx-07",
+    "name": "Starlight Prism 4K Portable OLED",
+    "tagline": "15.6-inch 120Hz 100% DCI-P3 Display with 10-Point Touch",
+    "category": "computing",
+    "price": 399.99,
+    "originalPrice": 469.99,
+    "discountPercent": 15,
+    "rating": 4.8,
+    "reviewCount": 87,
+    "stock": 16,
+    "isFeatured": false,
+    "isTrending": true,
+    "badge": "Creator Choice",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "The ultimate mobile workstation screen. Boasting self-lit organic pixels with infinite contrast, 500 nits peak HDR brightness, and 100% DCI-P3 color gamut coverage. Connects effortlessly via a single USB-C cable for both video and power.",
+    "features": [
+      "15.6-inch 4K UHD OLED (3840 x 2160) Resolution",
+      "True 120Hz Refresh Rate with 0.1ms Pixel Response",
+      "100% DCI-P3 and 100% sRGB Factory Color Calibrated (Delta E < 1)",
+      "Single-Cable USB-C Display & Power Pass-Through",
+      "CNC Milled Aluminum Shell with Integrated Smart Stand"
+    ],
+    "specs": {
+      "Panel": "Samsung 4K OLED (Anti-Glare Coating)",
+      "Brightness": "500 Nits HDR Peak / 400 Nits Typical",
+      "Ports": "2x Full-Function USB-C, 1x Mini-HDMI, 3.5mm Audio",
+      "Weight": "680 grams (Ultra-Slim 4.8mm edge)",
+      "Warranty": "2-Year Zero Bright Dot Guarantee"
+    },
+    "variants": [
+      { "id": "v1", "name": "Space Grey", "colorCode": "#334155", "priceDelta": 0 },
+      { "id": "v2", "name": "Deep Matte Black", "colorCode": "#09090b", "priceDelta": 0 }
+    ]
+  },
+  {
+    "id": "nx-08",
+    "name": "CyberDrone Phantom 4K Gimbal",
+    "tagline": "3-Axis Stabilized Drone with 38-Min Flight & Omnidirectional Sensing",
+    "category": "smart-home",
+    "price": 629.99,
+    "originalPrice": 749.99,
+    "discountPercent": 16,
+    "rating": 4.9,
+    "reviewCount": 54,
+    "stock": 7,
+    "isFeatured": false,
+    "isTrending": true,
+    "badge": "High Demand",
+    "image": "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Capture breathtaking aerial cinematography with cinematic smoothness. Featuring a 1/1.3-inch dual-native ISO sensor capable of shooting 4K/60fps HDR video, paired with a 38-minute extended flight battery and 12km low-latency video transmission.",
+    "features": [
+      "1/1.3-inch CMOS Sensor with 4K/60fps HDR and 48MP Photos",
+      "Full 3-Axis Mechanical Gimbal with True Vertical Shooting",
+      "Omnidirectional Binocular Vision Obstacle Avoidance",
+      "Up to 38 Minutes of Flight Time per Intelligent Battery",
+      "O3 Video Transmission up to 12 Kilometers in Full HD"
+    ],
+    "specs": {
+      "Camera": "48MP 1/1.3\" CMOS, f/1.7 aperture, 24mm equivalent",
+      "Max Speed": "16 m/s (Sport mode)",
+      "Weight": "249 grams (Sub-250g regulation friendly)",
+      "Storage": "Internal 32GB + MicroSD slot up to 512GB",
+      "Warranty": "1-Year CyberCare Replacement Plan"
+    },
+    "variants": [
+      { "id": "v1", "name": "Standard Fly Package", "colorCode": "#64748b", "priceDelta": 0 },
+      { "id": "v2", "name": "Fly More Combo (+2 Batteries)", "colorCode": "#334155", "priceDelta": 120 }
+    ]
+  },
+  {
+    "id": "nx-09",
+    "name": "Pulse Pods Spatial Wireless Earbuds",
+    "tagline": "Active Noise Cancellation with Transparency & Wireless Charging",
+    "category": "audio",
+    "price": 159.99,
+    "originalPrice": 189.99,
+    "discountPercent": 15,
+    "rating": 4.6,
+    "reviewCount": 142,
+    "stock": 25,
+    "isFeatured": false,
+    "isTrending": false,
+    "badge": "Popular",
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Sleek, ergonomic in-ear design delivering deep punchy bass, crisp highs, and personalized spatial audio profile. The pocket-sized case supports Qi wireless charging and provides a total of 32 hours of listening freedom.",
+    "features": [
+      "Adaptive Active Noise Cancellation up to 42dB reduction",
+      "Transparent Ambient Mode for street awareness",
+      "Triple Microphones with Beamforming AI Noise Reduction",
+      "IPX5 Sweat and Water Resistance rating",
+      "Wireless Qi Charging Case + Fast USB-C Port"
+    ],
+    "specs": {
+      "Battery": "8 Hours (Earbuds) + 24 Hours (Charging Case)",
+      "Drivers": "11mm Liquid Crystal Polymer Dynamic Drivers",
+      "Water Resistance": "IPX5 Splash/Sweat Resistant",
+      "Weight": "4.2g per earbud",
+      "Warranty": "1-Year Warranty"
+    },
+    "variants": [
+      { "id": "v1", "name": "Glacier White", "colorCode": "#f1f5f9", "priceDelta": 0 },
+      { "id": "v2", "name": "Phantom Black", "colorCode": "#18181b", "priceDelta": 0 }
+    ]
+  },
+  {
+    "id": "nx-10",
+    "name": "Aegis GaN 140W Multi-Port Charger",
+    "tagline": "Gallium Nitride PD 3.1 Fast Charger with 3x USB-C + 1x USB-A",
+    "category": "computing",
+    "price": 79.99,
+    "originalPrice": 99.99,
+    "discountPercent": 20,
+    "rating": 4.9,
+    "reviewCount": 68,
+    "stock": 30,
+    "isFeatured": false,
+    "isTrending": false,
+    "badge": "Essential",
+    "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=800&q=80"
+    ],
+    "description": "Harness the power of GaN III semiconductor technology. Fast-charge high-power laptops like the 16-inch MacBook Pro at maximum 140W speeds while simultaneously charging your phone and smartwatch safely without heat throttling.",
+    "features": [
+      "140W Max Output supporting Power Delivery 3.1 & PPS",
+      "Next-Gen GaN III Technology for 45% smaller form factor",
+      "Simultaneous charging for up to 4 devices",
+      "Active Temperature Protection and Surge Safeguards",
+      "Foldable travel prongs with universal voltage (100-240V)"
+    ],
+    "specs": {
+      "Total Power": "140 Watts Max",
+      "Port Config": "3x USB-C (PD 3.1), 1x USB-A (QC 4.0)",
+      "Dimensions": "7.5 x 7.5 x 3.2 cm",
+      "Weight": "285 grams",
+      "Warranty": "2-Year Warranty"
+    },
+    "variants": [
+      { "id": "v1", "name": "Matte Slate", "colorCode": "#334155", "priceDelta": 0 },
+      { "id": "v2", "name": "Pure Snow White", "colorCode": "#ffffff", "priceDelta": 0 }
+    ]
+  }
+]

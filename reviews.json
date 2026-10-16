@@ -1,0 +1,62 @@
+[
+  {
+    "id": "rev-101",
+    "productId": "nx-01",
+    "author": "Dr. Marcus Vance",
+    "rating": 5,
+    "date": "2026-09-28",
+    "verified": true,
+    "title": "Acoustic revelation - The ANC and soundstage rival $600 studio cans",
+    "comment": "The beryllium drivers deliver pristine transient response. Bass is punchy without muddying the midrange, and high frequencies are crystalline without sibilance. The cyan light ring looks like something out of Blade Runner. Absolute perfection."
+  },
+  {
+    "id": "rev-102",
+    "productId": "nx-01",
+    "author": "Elena Rostova",
+    "rating": 5,
+    "date": "2026-10-04",
+    "verified": true,
+    "title": "Unbelievably comfortable for 8-hour coding sessions",
+    "comment": "The memory foam cushions stay cool and don't press too hard on my glasses. The battery life is unbelievable—I've used them all week on one single charge."
+  },
+  {
+    "id": "rev-103",
+    "productId": "nx-02",
+    "author": "David Chen",
+    "rating": 5,
+    "date": "2026-10-02",
+    "verified": true,
+    "title": "Titanium build is indestructible",
+    "comment": "I took this watch on a 4-day mountain trail in torrential rain and rocky scrambles. Not a single scratch on the sapphire glass. The dual-frequency GPS tracked every elevation change down to the meter."
+  },
+  {
+    "id": "rev-104",
+    "productId": "nx-03",
+    "author": "Sarah Lin",
+    "rating": 5,
+    "date": "2026-09-15",
+    "verified": true,
+    "title": "The marbly sound profile out of the box is incredible",
+    "comment": "No mods required! The gasket mount flex combined with the factory lubed linear switches produces that deep creamy 'thock' sound everyone chases. The rotary knob feels exceptionally tactile."
+  },
+  {
+    "id": "rev-105",
+    "productId": "nx-04",
+    "author": "Julian Wright",
+    "rating": 4,
+    "date": "2026-09-22",
+    "verified": true,
+    "title": "Micro-OLED clarity is unmatched. True next-gen",
+    "comment": "No screen door effect whatsoever. The spatial passthrough latency is so low you can easily read your smartphone screen with the headset on. Only minor gripe is you need good lighting for hand tracking."
+  },
+  {
+    "id": "rev-106",
+    "productId": "nx-05",
+    "author": "Kairos 'Apex' V.",
+    "rating": 5,
+    "date": "2026-10-10",
+    "verified": true,
+    "title": "At 52 grams, aim tracking feels like moving air",
+    "comment": "The 4000Hz polling rate makes cursor tracking silky smooth on my 240Hz monitor. Magnesium structure has zero flex when squeezing hard during intense clutch moments."
+  }
+]
